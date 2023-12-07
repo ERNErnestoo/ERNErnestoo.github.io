@@ -1,0 +1,16 @@
+nav {
+  display: inline;
+  vertical-align: center;
+  
+  
+}
+
+.navlink {
+  padding-right: 30px;
+  text-decoration:none;
+  
+}
+
+body {
+  padding-left: 30px;
+}
