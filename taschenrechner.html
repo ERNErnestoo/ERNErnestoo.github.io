@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Taschenrechner</title>
+</head>
+<body>
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Taschenrechner</title>
+</head>
+
+<body>
+  
+  <div>
+    <div id="display" style="width:100px; border: 1px solid gray; padding:5px; text-align: right">
+      0
+    </div>
+    <table>
+      <tr>
+        <td><button onclick="press(1)">1</button></td>
+        <td><button onclick="press(2)">2</button></td>
+        <td><button onclick="press(3)">3</button></td>
+        <td><button onclick="reset()">C</button></td>
+      </tr>
+      <tr>
+        <td><button onclick="press(4)">4</button></td>
+        <td><button onclick="press(5)">5</button></td>
+        <td><button onclick="press(6)">6</button></td>
+        <td><button onclick="op('+')">+</button></td>
+      </tr>
+      <tr>
+        <td><button onclick="press(7)">7</button></td>
+        <td><button onclick="press(8)">8</button></td>
+        <td><button onclick="press(9)">9</button></td>
+        <td><button onclick="op('-')">-</button></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td><button onclick="press(0)">0</button></td>
+        <td></td>
+        <td><button onclick="result()">=</button></td>
+      </tr>
+    </table>
+
+  </div>
+
+  <script>
+    // in dieser Variablen wird der zuletzt gedrückte Operator gespeichert (+ oder -)
+    let lastOperator = '';
+
+    // wenn eine Zahl eingeben wird, und dann ein Operator, dann wird die 
+    // zuerst eingegebene Zahl hier gespeichert
+    let lastNumber = 0;
+
+    // die Zahl, die gerade im Display steht
+    let currentNumber = 0;
+
+    // Klick auf eine Ziffer
+    function press(digit) {
+      // TODO dieser Teil stimmt noch nicht, hier kann man noch
+      // keine längeren Zahlen eingeben
+      currentNumber = digit;
+
+      // Display-Anzeige aktualisieren
+      updateDisplay();
+    }
+
+    // Klick auf + oder -
+    function op(operator) {
+      // letzte Zahl merken
+      lastNumber = currentNumber;
+
+      // aktuelle Zahl auf 0 setzen
+      lastOperator = operator;
+
+      // TODO hier muss noch implementiert werden, dass man
+      // nach dem Klick auf + oder - eine neue Zahl eingibt
+    }
+
+    // Taschenrechner zurücksetzen - Taste C
+    function reset() {
+      currentNumber = 0;
+      lastNumber = 0;
+      lastOperator = '';
+
+      updateDisplay();
+    }
+
+    // = gedrückt
+    function result() {
+      // wenn der Nutzer + rechnen will, dann 
+      // gemerkte und aktuelle Zahl addieren, und im Display anzeigen
+      if (lastOperator == '+') {
+        currentNumber = currentNumber + lastNumber;
+        updateDisplay();
+      }
+
+      // TODO hier fehlt noch - (Minus)
+    }
+
+    // Zahl aus der Variablen in die Webseite einfügen
+    function updateDisplay() {
+      // DOM-Element holen
+      let display = document.getElementById("display");
+
+      // und Inhalt ändern
+      display.innerHTML = currentNumber;
+    }
+  </script>
+</body>
+
+</html
+
+
+
+
+
+</body>
+</html>
