@@ -435,6 +435,7 @@ a img{
 
 
 /**** Mobile layout ****/
+
 @media (max-width: 900px) {
   .android-navigation-container {
     display: none;
@@ -511,7 +512,3 @@ a img{
   }
 }
 
-.Ernesto {
- height: 1px;
- width: 1px;
-}
