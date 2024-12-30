@@ -1,18 +1,4 @@
-/**
- * Copyright 2015 Google Inc. All Rights Reserved.
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *      http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
+
 
 body {
   margin: 0;
@@ -33,9 +19,7 @@ a img{
   color: #fff;
 }
 
-.android-search-box .mdl-textfield__input {
-  color: rgba(0, 0, 0, 0.87);
-}
+
 
 .android-header .mdl-menu__container {
   z-index: 50;
@@ -62,8 +46,9 @@ a img{
 
 
 .android-logo-image {
-  height: 28px;
-  width: 140px;
+  height: 60px;
+  width: 100px;
+  background-color: #767777;
 }
 
 
@@ -133,11 +118,6 @@ a img{
     margin-right: 16px;
   }
 
-  .android-more-button {
-    -webkit-order: 3;
-        -ms-flex-order: 3;
-            order: 3;
-  }
 
 
 .android-drawer {
@@ -175,7 +155,7 @@ a img{
   height: 800px;
   width: auto;
   background-color: #f3f3f3;
-  background: url('images/slide01.jpg') center 30% no-repeat;
+  background: url('images/20230418_173436_resized_resized.jpg') right 30% no-repeat;
   background-size: cover;
 }
 
@@ -187,7 +167,7 @@ a img{
 }
 
 .android-slogan {
-  font-size: 60px;
+  font-size: 80px;
   padding-top: 160px;
 }
 
@@ -300,12 +280,7 @@ a img{
   }
 
 
-.android-wear-section {
-  position: relative;
-  background: url('images/wear.png') center top no-repeat;
-  background-size: cover;
-  height: 800px;
-}
+
 
 .android-wear-band {
   position: absolute;
@@ -372,11 +347,7 @@ a img{
     padding-top: 16px;
   }
 
-.android-customized-section-image {
-  background: url('images/devices.jpg') center top no-repeat;
-  background-size: cover;
-  height: 400px;
-}
+
 
 .android-more-section {
   padding: 80px 0;
@@ -390,8 +361,7 @@ a img{
     padding-bottom: 24px;
   }
 
-.android-card-container {
-}
+
 
   .android-card-container .mdl-card__media {
     overflow: hidden;
@@ -428,7 +398,7 @@ a img{
     font-size: 16px;
   }
 
-.android-footer {
+ .android-footer {
   background-color: #fafafa;
   position: relative;
 }
@@ -539,4 +509,9 @@ a img{
   .android-footer .mdl-mega-footer--bottom-section {
     display: none;
   }
+}
+
+.Ernesto {
+ height: 1px;
+ width: 1px;
 }
