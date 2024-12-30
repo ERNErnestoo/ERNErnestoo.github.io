@@ -46,7 +46,7 @@ a img{
 
 
 .android-logo-image {
-  height: 60px;
+  height: 50px;
   width: 100px;
   background-color: #767777;
 }
@@ -124,6 +124,8 @@ a img{
   border-right: none;
 }
 
+
+
   .android-drawer-separator {
     height: 1px;
     background-color: #dcdcdc;
@@ -155,7 +157,7 @@ a img{
   height: 800px;
   width: auto;
   background-color: #f3f3f3;
-  background: url('images/20230418_173436_resized_resized.jpg') right 30% no-repeat;
+  background: url('') right 30% no-repeat;
   background-size: cover;
 }
 
