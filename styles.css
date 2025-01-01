@@ -1,7 +1,9 @@
 
 
+
 body {
   margin: 0;
+  background-image: url(images/DALL·E\ 2024-12-30\ 21.59.41\ -\ A\ futuristic\ and\ sleek\ illustration\ of\ a\ CPU\ as\ the\ central\ theme.\ The\ design\ should\ feature\ a\ glowing\ microchip\ surrounded\ by\ interconnected\ circuits.webp);
 }
 
 /* Disable ugly boxes around images in IE10 */
@@ -46,7 +48,7 @@ a img{
 
 
 .android-logo-image {
-  height: 50px;
+  height: 40px;
   width: 100px;
   background-color: #767777;
 }
@@ -63,11 +65,11 @@ a img{
 
   .android-header .mdl-layout__drawer-button {
     background: transparent;
-    color: #767777;
+    color: #ffffff;
   }
 
   .android-header .mdl-navigation__link {
-    color: #757575;
+    color: #ffffff;
     font-weight: 700;
     font-size: 14px;
   }
@@ -171,11 +173,14 @@ a img{
 .android-slogan {
   font-size: 80px;
   padding-top: 160px;
+  color: #fff;
+ 
 }
 
 .android-sub-slogan {
   font-size: 21px;
   padding-top: 24px;
+  color: #fff;
 }
 
 .android-create-character {
@@ -402,7 +407,7 @@ a img{
 
  .android-footer {
   background-color: #fafafa;
-  position: relative;
+  position: bottom;
 }
 
   .android-footer a:hover {
@@ -418,7 +423,7 @@ a img{
   }
 
   .android-footer .mdl-mega-footer--bottom-section {
-    position: relative;
+    position: bottom;
   }
 
   .android-footer .mdl-mega-footer--bottom-section a {
@@ -426,7 +431,7 @@ a img{
   }
 
   .android-footer .mdl-mega-footer--right-section a .material-icons {
-    position: relative;
+    position: bottom;
     top: 6px;
   }
 
@@ -510,7 +515,7 @@ a img{
   }
 
   .android-footer .mdl-mega-footer--bottom-section {
-    display: none;
+    display: bottom;
   }
 }
 
