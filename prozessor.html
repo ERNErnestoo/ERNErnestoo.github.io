@@ -15,15 +15,7 @@
     <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.min.css">
     <link rel="stylesheet" href="styles.css">
     <style>
-    #view-source {
-      position: fixed;
-      display: block;
-      right: 0;
-      bottom: 0;
-      margin-right: 40px;
-      margin-bottom: 40px;
-      z-index: 900;
-    }
+  
     </style>
   </head>
   <body>
@@ -36,7 +28,7 @@
       <div class="android-header mdl-layout__header mdl-layout__header--waterfall">
         <div class="mdl-layout__header-row">
           <span class="android-title mdl-layout-title">
-            <img class="android-logo-image" src="images/Ernesto.jpg">
+            <img class="android-logo-image"   src="images/Ernesto.jpg">
           </span>
           <!-- Add spacer, to align navigation to the right in desktop -->
           <div class="android-header-spacer mdl-layout-spacer"></div>
@@ -59,6 +51,7 @@
           <img class="android-logo-image" src="images/Ernesto.jpg">
         </span>
         <nav class="mdl-navigation">
+          <a class="mdl-navigation__link" href="index.html">Home</a>
           <a class="mdl-navigation__link" href="">Aufbau</a>
           <a class="mdl-navigation__link" href="">Geschihte</a>
           <a class="mdl-navigation__link" href="">Eigentlicher Einfluss</a>
@@ -72,46 +65,61 @@
         <div class="android-be-together-section mdl-typography--text-center">
           <div class="logo-font android-slogan">Wilkommen zu meine Webseite über Prozzesoren</div>
          
-          <div class="logo-font android-sub-slogan"><h5>
+          <div class="logo-font android-sub-slogan"><h6>
+            Jeden Tag benutzen wir unsere Mobilfunkgeräte, Laptops, Elektroautos etc. Ohne darüber nachzudenken, was so wirklich in unseren Geräten drinnen ist und was für ein Potential 
+            sie wirklich haben. Zum jetzigen Standpunkt forschen Mathematiker und Physiker, wie man einen Prozessor am besten mit Künstlicher Intelligenz kombinieren kann, um die Effizienz 
+            der Prozessoren immense zu steigern. Aber was diese Prozessoren sind und was für einen wirklichen Einfluss sie auf uns haben und werden, wurde schon vor mehr als 44 Jahren in Frage 
+            gestellt. Wie könnte man den ENIAC so verbessern, dass man sehr schnell Daten speichern und darauf zugreifen kann? Diese Fragen stellte sich der Mathematiker und Physiker John von 
+            Neumann mitten im Zweiten Weltkrieg. Diese Fragen stelle ich mir jetzt auch und will mit dieser Webseite erklären.(für genauere erklärungen habe ich andere links unten hinzugefügt)
+            Prozessoren sind in allen Computer Geräten. Sie sind dafür zuständig, Prozesse voranzutreiben, deswegen ja auch Prozessor. Um sowas zu machen, steuert der Prozessor elektrische Schaltungen, 
+            die über gegebene Befehle ausgeführt werden. Um all dies zu verstehen, müssen wir uns in der Lage von John von Neumann vor 81 Jahren befinden.Der liebe John half enorm bei der Entwicklung und 
+            Herstellung der ENIAC oder auch Electronic Numerical Integrator and Computer. DER ENIAC hatte ein sehr großes Problem, es war ein Hard-Wired Computer. Das heißt, dass es nach jeder Rechnung per
+             Hand verkabelt werden muss, um neue Berechnungen auszuführen. Das war natürlich sehr aufwändig und daher das es Menschen sind die das neu konfiguriert haben auch sehr  fehlerhaft. John von Neumann 
+             kam auf die grandiose Idee, ein neues Konzept zu erfinden, der “Stored Program Architecture” oder auch auf deutsch “Speicherprogramm-Architektur”. Dabei werden Daten und Programme im selben Speicher 
+             gespeichert und können somit schneller und flexibler zusammenarbeiten. Diese Architektur von Neumann  ermöglichte es, die Grundlagen eines heutigen Prozessors zu ermöglichen und stellte einen enormen 
+             Fortschritt in der Computertechnik.Jetzt ist die Frage, wie ist sowas denn eigentlich aufgebaut? Ich bin froh, dass du gefragt hast.Ein moderner Prozessor besteht aus einem Steuerwerk, einem Rechenwerk, 
+             einem Speichermanager und 3 verschiedene Caches.Das Steuerwerk ist der Oberchef im Computer. Es sorgt dafür, dass Befehle wie ein Antivirus geöffnet, geladen und interpretiert werden. Das Steuerwerk benutzt 
+             dafür drei kleine und sehr schnelle Speicher oder auch register genannt.Es gibt einmal den Befehlsregister der den aktuellen Maschinenbefehl, es gibt auch den Befehlszähler der die Speicheradresse des nächsten 
+             Befehls kennt und zu guter letzt den Statusregister den den status der akktuellen Operation speichert.Außerdem gibt es noch im Steuerwerk ein Befehlsdecoder.Der Befehlsdecoder übersetzt das Binär-Code von den
+              Registern und wandelt sie in Befehle um die der Prozessor weitergibt. Um dies zu machen, schaut es einfach in so eine Art von Liste, wo alle Befehle schon stehen. Wenn der Befehlsdecoder dann weiss was er 
+              machen soll, gibt er die Befehle dann an den Arbeitern oder auch das Rechenwerk. Im Rechenwerk passiert das eigentliche Rechnen, deswegen heißt es auch Rechner. Im Rechenwerk gibt es die ALU oder auch die
+               Arithmetisch Logische Einheit. Die ALU besitzt zunächst zwei Eingangsregister, das Datenregister für die Daten, die verarbeitet werden, und ein Akkumulator, was die Zwischenergebnisse der vorherigen Rechnungen 
+               rechnet. Daneben gibt es noch eine Operation, die entscheidet, was mit den Zahlen, die die beiden Register geben, machen soll. Das Ergebnis wird dann wieder zum Steuerwerk geführt, genauso wie der Status der
+                Operation wie zum Beispiel ein Übertrag einer Addition. Je nach Prozessor können sogar vier oder acht Bytes in der ALU verarbeitet werden. Jetzt kommt. der Speichermanager, der sorgt dafür, dass man Daten mit 
+                dem Arbeitsspeicher austauschen kann, weil halt dort das Programm steht, was wir ausführen. Das Problem ist allerdings, dass der Arbeitsspeicher viel zu langsam für den Prozessor ist. Deswegen gibt es im Prozessor
+                 den so genannten Cache. Der Cache dient als Zwischenspeicher für wieder benutzbare Befehle und Werte, so können wir schnell auf wieder benutzbare Daten zugreifen. Der Cache ist zwischen 3 Ebenen unterteilt. Der 
+                 Level 1 Cache befindet sich im Kern, ist aber auch der kleinste von den dreien. Der Level 2 Cache liegt diesmal außerhalb des Kerns. Der ist zwar langsamer, aber dafür viel größer. Der Level 3 Cache ist bei 
+                 Prozessoren mit mehreren Kernen und dient als gemeinsamer Cache für die Kerne. Der Level 3 Cache ist auch am weitesten entfernt. Alles, was in Geräten mit Prozessoren passiert, funktioniert nur durch einfache 
+                 Additionen, das Vergleichen von Werten und das Speichern von Daten. Verückt oder? Bei dem allem habt ihr doch schonmal die Taktfrequenz gehört. Dies gibt an, wie schnell ein Prozessor die Befehle abarbeiten 
+                 kann. Heißt man zum Beispiel, dass ein zwei mal 3,4 GigaHertz Prozessor 3,4 Milliarden Befehle pro Sekunde bearbeitet, je mehr Kerne also je schneller. Das ist doch der Wahnsinn! Die modernen Prozessor im
+                 Handy haben typischerweise schon 4 Kerne. 
 
-            Mein Name ist Ernesto Daniel, ich bin 15 Jahre alt und lebe in Bremen, einer Stadt, die ich für ihre kulturelle Vielfalt und lebendige Atmosphäre schätze. Ursprünglich wurde ich in Italien geboren, und meine Wurzeln sind ein wichtiger Teil meiner Identität. Sie haben mir nicht nur eine Liebe für gutes Essen und warme Gastfreundschaft mitgegeben, sondern auch einen tiefen Respekt für verschiedene Kulturen und Traditionen. Als ich mit meiner Familie nach Deutschland zog, war es eine spannende Reise, mich an ein neues Umfeld anzupassen. Heute spreche ich sowohl Englisch als auch Deutsch fließend, was mir ermöglicht, mit Menschen aus aller Welt zu kommunizieren und Freundschaften zu schließen.
 
-           Meine Schullaufbahn begann an der Osterholzer Grundschule, wo ich nicht nur die Grundlagen meines Wissens erlernte, sondern auch meine ersten Freundschaften in Bremen knüpfte. Momentan besuche ich die Gesamtschule Bremen Ost, an der ich bis 2025 lernen und wachsen werde. Die Schule bietet mir die Möglichkeit, sowohl akademisch als auch persönlich zu reifen. Besonders interessieren mich Fächer wie Musik und Informatik, da sie meine Kreativität und logisches Denken herausfordern.
-
-           Eine meiner größten Leidenschaften ist das Schlagzeugspielen. Dieses Instrument ist mehr als nur ein Hobby für mich – es ist ein Weg, meine Gefühle auszudrücken und meine Energie in etwas Positives zu lenken. Es ist faszinierend, wie das Zusammenspiel von Händen, Füßen und Rhythmus dazu beiträgt, einen Raum mit Dynamik und Leben zu füllen. Das Schlagzeugspiel hat mir auch Geduld und Disziplin beigebracht, da es oft stundenlanges Üben erfordert, um die perfekte Technik zu beherrschen. Musik hat eine universelle Sprache, und es erfüllt mich mit Stolz und Freude, ein Teil davon zu sein.
-
-           Neben meiner Liebe zur Musik bin ich bekannt für meine Hilfsbereitschaft und Freundlichkeit. Diese Eigenschaften liegen mir besonders am Herzen, da ich fest daran glaube, dass kleine Taten der Freundlichkeit große Auswirkungen haben können. Ob es darum geht, einem Klassenkameraden bei einer schwierigen Aufgabe zu helfen, jemandem zuzuhören, der ein Problem hat, oder einfach ein Lächeln zu schenken – ich bin der Überzeugung, dass solche Momente den Unterschied machen.
-
-           Eine weitere Stärke von mir ist meine Fähigkeit, positiv zu bleiben, auch wenn die Dinge manchmal herausfordernd sind. In einer Welt, die oft von Hektik und Stress geprägt ist, versuche ich, anderen ein Gefühl von Ruhe und Unterstützung zu geben. Ich sehe es als meine persönliche Mission, in meinem Umfeld ein bisschen Wärme und Licht zu verbreiten.
-
-           Abseits der Schule und Musik verbringe ich gerne Zeit mit meinem Computer. Ich liebe es, neue Technologien zu entdecken und Spiele zu spielen, die strategisches Denken und Kreativität fördern. Ich finde es spannend, wie Technologie unser Leben verbessert und neue Möglichkeiten eröffnet. Gleichzeitig sehe ich sie auch als Werkzeug, um Wissen zu teilen und Verbindungen zu schaffen.
-
-           Zusammenfassend lässt sich sagen, dass meine Interessen, Werte und Erfahrungen mich zu der Person machen, die ich heute bin. Ich strebe danach, nicht nur meine Talente weiterzuentwickeln, sondern auch einen positiven Einfluss auf mein Umfeld auszuüben. Jeder Mensch hat etwas Einzigartiges zu bieten, und ich bin stolz darauf, meine Fähigkeiten und Stärken mit anderen zu teilen.
             
-           </h5></div>
+           </h6></div>
           </a>
-
-
+          
 
 
 
         </div>
         <div class="android-more-section">
-          <div class="android-section-title mdl-typography--display-1-color-contrast">Meine Projekte</div>
+          <div class="android-section-title mdl-typography--display-1-color-contrast">Meine Themen</div>
           <div class="android-card-container mdl-grid">
+
             <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp">
               <div class="mdl-card__media">
                 <img src="images/">
               </div>
               <div class="mdl-card__title">
-                 <h4 class="mdl-card__title-text">P5-Prozessoren</h4>
+                 <h4 class="mdl-card__title-text">Aufbau</h4>
               </div>
               <div class="mdl-card__supporting-text">
-                <span class="mdl-typography--font-light mdl-typography--subhead">Meine P5 Prüfung</span>
+                <span class="mdl-typography--font-light mdl-typography--subhead">hier wrede ich gründlich über den aufbau des Prozessors eingehen</span>
               </div>
               <div class="mdl-card__actions">
                  <a class="android-link mdl-button mdl-js-button mdl-typography--text-uppercase" href="">
-                   Prozessoren
+                   Aufbau
                    <i class="material-icons">chevron_right</i>
                  </a>
               </div>
@@ -122,10 +130,10 @@
                 <img src="images/more-from-4.png">
               </div>
               <div class="mdl-card__title">
-                 <h4 class="mdl-card__title-text">Mein eigener Taschenrechner</h4>
+                 <h4 class="mdl-card__title-text">Geschichte vom Prozessorr</h4>
               </div>
               <div class="mdl-card__supporting-text">
-                <span class="mdl-typography--font-light mdl-typography--subhead">Ich habe ein Taschenrechner programmiert:)</span>
+                <span class="mdl-typography--font-light mdl-typography--subhead"> </span>
               </div>
               <div class="mdl-card__actions">
                  <a class="android-link mdl-button mdl-js-button mdl-typography--text-uppercase" href="">
