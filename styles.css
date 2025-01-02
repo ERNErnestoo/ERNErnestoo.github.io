@@ -7,10 +7,9 @@ body {
   
 }
 
+
 /* Disable ugly boxes around images in IE10 */
-a img{
-  border: 0px;
-}
+
 
 ::-moz-selection {
   background-color: #4487b3;
@@ -46,6 +45,7 @@ a img{
 .android-mobile-title {
   display: none !important;
 }
+
 
 
 .android-logo-image {
@@ -137,7 +137,7 @@ a img{
 
   .android-drawer .mdl-navigation__link.mdl-navigation__link {
     font-size: 14px;
-    color: #757575;
+    color: #000000;
   }
 
   .android-drawer span.mdl-navigation__link.mdl-navigation__link {
@@ -182,6 +182,7 @@ a img{
   font-size: 21px;
   padding-top: 24px;
   padding-bottom: 24px;
+
  
   color: #000000;
 }
@@ -326,6 +327,7 @@ a img{
     position: absolute;
     bottom: 0;
   }
+
 
   .android-card-container .mdl-card__actions a {
     border-top: none;
