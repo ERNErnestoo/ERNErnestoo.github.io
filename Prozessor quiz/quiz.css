@@ -3,4 +3,223 @@
     padding: 0;
     font-family: 'poppins', 'sans-serif';
     box-sizing: border-box;
+    color: black;
 }
+body{
+    background: #001e4d;
+}
+.app{
+    background: white;
+    width: 90%;
+    max-width: 600px;
+    margin: 100px auto 0;
+    border-radius: 10px;
+    padding: 30px;
+    position: relative;
+    top: 250px;
+   
+}
+.app h3 {
+    font-size: 25px;
+    color: #001e4d;
+    font-weight: 600;
+    border-bottom: 1px solid #333;
+    padding: 30px;
+
+}
+.quiz{
+    padding: 20px 0;
+}
+
+.quiz h5{
+    font-size: 18px;
+    color: #001e4d;
+    font-weight: 600;
+}
+
+.btn{
+    background: white;
+    color: #222;
+    font-weight: 500;
+    width: 100%;
+    border: 1px solid #222;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: left;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s ;
+
+}
+
+.btn:hover{
+    background: #001e4d;
+    color: #fff;
+}
+
+#next-btn{
+    background: #001e4d;
+    color: #fff;
+    font-weight: 500;
+    width: 150px;
+    border: 0;
+    padding: 10px;
+    margin: 20px auto 0;
+    border-radius: 4;
+    cursor: pointer;
+    display: none;
+
+
+}
+
+
+
+
+
+
+::-moz-selection {
+    background-color: #4487b3;
+    color: #fff;
+  }
+  
+  ::selection {
+    background-color: #4487b3;
+    color: #fff;
+  }
+  
+  
+  
+  .android-header .mdl-menu__container {
+    z-index: 50;
+    margin: 0 !important;
+  }
+  
+  
+  .mdl-textfield--expandable {
+    width: auto;
+  }
+  
+  
+  
+  .android-mobile-title {
+    display: none !important;
+  }
+  
+  
+  
+  .android-logo-image {
+    height: 40px;
+    width: 100px;
+    background-color: #000000;
+  }
+  
+  
+  .android-header {
+    overflow: visible;
+    background-color: rgb(255, 252, 252);
+    position: top 0;
+  }
+  
+    .android-header .material-icons {
+      color: #000000 !important;
+      position: top 0;
+    }
+  
+    .android-header .mdl-layout__drawer-button {
+      background: transparent;
+      color: #000000;
+    }
+  
+    .android-header .mdl-navigation__link {
+      color: #000000;
+      font-weight: 700;
+      font-size: 14px;
+    }
+  
+    .android-navigation-container {
+      /* Simple hack to make the overflow happen to the left instead... */
+      direction: rtl;
+      -webkit-order: 1;
+          -ms-flex-order: 1;
+              order: 1;
+      width: 500px;
+      transition: opacity 0.2s cubic-bezier(0.4, 0, 0.2, 1),
+          width 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+          position: top 0;
+    }
+  
+    .android-navigation {
+      /* ... and now make sure the content is actually LTR */
+      direction: ltr;
+      -webkit-justify-content: flex-end;
+          -ms-flex-pack: end;
+              justify-content: flex-end;
+      width: 800px;
+      position: top 0;
+    }
+  
+    .android-search-box.is-focused + .android-navigation-container {
+      opacity: 0;
+      width: 100px;
+    }
+  
+  
+    .android-navigation .mdl-navigation__link {
+      display: inline-block;
+      height: 60px;
+      line-height: 68px;
+      background-color: transparent !important;
+      border-bottom: 4px solid transparent;
+    }
+  
+      .android-navigation .mdl-navigation__link:hover {
+        border-bottom: 4px solid #4487b3;
+      }
+  
+    .android-search-box {
+      -webkit-order: 2;
+          -ms-flex-order: 2;
+              order: 2;
+      margin-left: 16px;
+      margin-right: 16px;
+    }
+  
+  
+  
+  .android-drawer {
+    border-right: none;
+    position: top 0;
+  }
+  
+  
+  
+    .android-drawer-separator {
+      height: 1px;
+      background-color: #dcdcdc;
+      margin: 8px 0;
+    }
+  
+    .android-drawer .mdl-navigation__link.mdl-navigation__link {
+      font-size: 14px;
+      color: #000000;
+    }
+  
+    .android-drawer span.mdl-navigation__link.mdl-navigation__link {
+      color: #4487b3;
+    }
+  
+    .android-drawer .mdl-layout-title {
+      position: relative;
+      background: #4487b3;
+      height: 160px;
+    }
+  
+      .android-drawer .android-logo-image {
+        position: absolute;
+        bottom: 16px;
+      }
+  
+  
+  
+
+
