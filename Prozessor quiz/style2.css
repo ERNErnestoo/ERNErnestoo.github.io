@@ -7,6 +7,7 @@
 
 body {
   background: #f7f7f7;
+  font-family: 'Poppins', sans-serif, ;
 
 }
 .app{
@@ -42,10 +43,15 @@ body {
 
 }
 
-.btn:hover{
+.btn:hover:not([disabled]){
   background: #4487b3 ;
   color: #fff;
 }
+.button:disabled{
+  background: #ccc;
+  cursor: not-allowed;
+}
+
 #next-btn{
   background: #021d30;
   color: #fff;
@@ -58,26 +64,21 @@ body {
   display: none;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-::-moz-selection {
-  background-color: #4487b3;
-  color: #fff;
+.correct {
+  background: #9aeabc;
 }
 
-::selection {
-  background-color: #4487b3;
-  color: #fff;
+.wrong {
+  background: #ff9393;
 }
+
+
+
+
+
+
+
+
 
 
 
