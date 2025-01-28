@@ -1,83 +1,83 @@
 const questions = [
   {
-    question: "Was bedeutet die Abkürzung CPU?",
+    question: "Wie beschreibt Anne Frank die Beziehung zu ihrer Schwester Margot und wie entwickelt sich diese im Verlauf des Tagebuchs??",
     answers: [
-      { text: "Keine Ahnung", correct: false },
-      { text: "Cebtral Process Unit", correct: false },
-      { text: "Central Process Utility", correct: false },
-      { text: "Central Processing Unit", correct: true }
+      { text: "Margot ist Annes größte Konkurrentin im Versteck, und sie streiten sich ständig.", correct: false },
+      { text: "Anne ist neidisch auf Margot, weil diese von den Eltern bevorzugt wird.", correct: false },
+      { text: "Anne und Margot sind von Anfang an unzertrennlich und teilen alle Geheimnisse.", correct: false },
+      { text: "Anfangs empfindet Anne eine gewisse Distanz zu Margot, da sie sich mit ihrer älteren Schwester nicht besonders verbunden fühlt.", correct: true }
     ]
   },
   {
-    question: "Welche Aufgabe hat das Rechenwerk (ALU) in einer CPU?",
+    question: " Welche Rolle spielt das „Hinterhaus“ als physischer Raum für Annes psychische und emotionale Entwicklung?",
     answers: [
-      { text: "Daten speichern", correct: false },
-      { text: "Mathematische und logische Berechnungen durchführen", correct: true },
-      { text: "Keine Ahnung", correct: false },
-      { text: "Befehle decodieren", correct: false }
+      { text: "Das Hinterhaus ist für Anne ein Ort der Freiheit, an dem sie sich voll entfalten kann.", correct: false },
+      { text: "Mathematische und logische Berechnungen  Das Hinterhaus wird für Anne zu einem Ort der Enge und Einschränkung, der ihre Gefühle von Isolation und Angst verstärkt.", correct: true },
+      { text: " Anne empfindet das Hinterhaus als sicheren Hafen, in dem sie keine Angst vor der Außenwelt hat.", correct: false },
+      { text: "Das Hinterhaus ist für Anne ein Ort der Langeweile, an dem sie keine emotionalen Entwicklungen durchmacht.", correct: false }
     ]
   },
   {
-    question: "Was ist ein Kern (Core) in einer CPU?",
+    question: "Wie reflektiert Anne Frank ihre Identität als Jüdin in einer Zeit der Verfolgung, und wie beeinflusst dies ihr Selbstbild?",
     answers: [
-      { text: "Ein Teil des Arbeitsspeichers", correct: false },
-      { text: "Eine Einheit, die eigenständige Befehle verarbeiten kann", correct: true },
-      { text: "Die Prozessor-CPU hat weniger Kerne", correct: false },
-      { text: "Die Kernprozessor-CPU hat weniger Kerne", correct: false }
+      { text: " Anne ist stolz darauf, Jüdin zu sein, und sieht die Verfolgung als Herausforderung, die sie stärker macht.", correct: false },
+      { text: "Anne fühlt sich durch die Verfolgung ihrer Identität beraubt und fragt sich, warum sie als Jüdin anders behandelt wird", correct: true },
+      { text: "Anne distanziert sich von ihrer jüdischen Identität und möchte nicht mehr als Jüdin gesehen werde", correct: false },
+      { text: "Anne versteht die Gründe für die Verfolgung und akzeptiert sie als Teil ihres Schicksals.", correct: false }
     ]
   },
   {
-    question: "Was ist ein Register in einer CPU?",
+    question: "Wie charakterisiert Anne Frank die anderen Bewohner des Hinterhauses, und welche Konflikte entstehen dadurch?",
     answers: [
-      { text: "Ein Speicherplatz, in dem Daten gespeichert werden", correct: true },
-      { text: "Ein Teil des Arbeitsspeichers", correct: false },
-      { text: "Ein Teil der Prozessor-CPU", correct: false },
-      { text: "Keine Ahnung", correct: false }
+      { text: "Anne beschreibt die anderen Bewohner oft sehr kritisch, insbesondere die Streitigkeiten mit Frau van Daan.", correct: true },
+      { text: "Anne findet alle Bewohner des Hinterhauses sympathisch und hat keine Konflikte mit ihnen.s", correct: false },
+      { text: "Anne bewundert vor allem Herrn van Daan für seine Gelassenheit und Weisheit.", correct: false },
+      { text: " Anne hat nur Konflikte mit ihrer Mutter, während sie zu allen anderen ein gutes Verhältnis hat.", correct: false }
     ]
   },
   {
-    question: "Was bedeutet der Begriff Cache bei Prozessoren?",
+    question: "Welche Rolle spielt Peter van Daan in Annes Leben, und wie verändert sich ihre Beziehung zu ihm im Laufe der Zeit?",
     answers: [
-      { text: "Ein schneller Zwischenspeicher für Daten", correct: true },
-      { text: "Keine Ahnung, ich weiß es nicht", correct: false },
-      { text: "Eine Art von Software", correct: false },
-      { text: "Ein externer Speicher", correct: false }
+      { text: "Im Laufe der Zeit entwickelt sie Gefühle für ihn und sieht in ihm einen Verbündeten im Versteck", correct: true },
+      { text: " Peter ist von Anfang an Annes engster Vertrauter, und sie verlieben sich sofort ineinander", correct: false },
+      { text: " Anne findet Peter uninteressant und ignoriert ihn während der gesamten Zeit im Versteck.", correct: false },
+      { text: " Peter ist für Anne nur ein Freund, und ihre Beziehung bleibt platonisch.", correct: false }
     ]
   },
   {
-    question: "Was ist ein Befehl in einer CPU?",
+    question: "Wie beschreibt Anne Frank ihre Beziehung zu ihren Eltern, insbesondere zu ihrem Vater Otto Frank, und wie verändert sich diese im Versteck?",
     answers: [
-      { text: "Ein gespeichertes Programm", correct: false },
-      { text: "Ein Programm, das ausgeführt wird", correct: true },
-      { text: "Ein Teil des Arbeitsspeichers", correct: false },
-      { text: "Ein Teil der Prozessor-CPU", correct: false }
+      { text: "Anne hat ein besseres Verhältnis zu ihrer Mutter als zu ihrem Vater.", correct: false },
+      { text: "Anne hat eine sehr enge Beziehung zu ihrem Vater, den sie als verständnisvoll und unterstützend empfindet.", correct: true },
+      { text: "Anne lehnt ihren Vater ab, weil er zu streng ist.", correct: false },
+      { text: "Anne fühlt sich von beiden Eltern gleich verstanden und geliebt.", correct: false }
     ]
   },
   {
-    question: "Was ist der Unterschied zwischen 32-Bit und 64-Bit-Prozessoren?",
+    question: "Welche Bedeutung haben die Nachrichten von außen (z. B. über den Kriegsverlauf) für die Bewohner des Hinterhauses, und wie reagieren sie darauf?",
     answers: [
-      { text: "Die Menge an Daten, die gleichzeitig verarbeitet werden", correct: true },
-      { text: "Die Anzahl an Transistoren", correct: false },
-      { text: "Keine Ahnung", correct: false },
-      { text: "Ein gedrucktes Bild", correct: false }
+      { text: "Die Nachrichten von außen geben den Bewohnern Hoffnung, aber auch Angst, da sie nie sicher sind, was als Nächstes passiert.", correct: true },
+      { text: "Die Bewohner ignorieren die Nachrichten von außen, da sie ihnen keine Hoffnung geben.", correct: false },
+      { text: " Die Nachrichten führen immer zu Freude und Optimismus im Hinterhaus", correct: false },
+      { text: " Anne interessiert sich nicht für die Nachrichten, da sie sich nur auf ihr Tagebuch konzentriert.", correct: false }
     ]
   },
   {
-    question: "Was passiert, wenn eine CPU überlastet wird?",
+    question: " Wie reflektiert Anne Frank ihre eigenen Träume und Zukunftspläne im Kontrast zu der Realität des Verstecks?",
     answers: [
-      { text: "Sie arbeitet schneller", correct: false },
-      { text: "Rein gar nichts", correct: false },
-      { text: "Keine Ahnung, frag deine Lehrerin", correct: false },
-      { text: "Sie wird langsamer und überhitzt", correct: true }
+      { text: " Anne träumt davon, nach dem Krieg eine Karriere als Schauspielerin zu beginnen.", correct: false },
+      { text: " Anne möchte nach dem Krieg in die USA auswandern und dort ein neues Leben beginnen.", correct: false },
+      { text: "Anne hat keine Träume oder Zukunftspläne, da sie keine Hoffnung auf eine Zukunft hat.", correct: false },
+      { text: "Anne träumt davon, Schriftstellerin zu werden und ihr Tagebuch zu veröffentlichen", correct: true }
     ]
   },
   {
-    question: "Glaubst du, dass diese Website meine NW-Note bessern kann?",
+    question: " Welche Rolle spielen die Helfer (z. B. Miep Gies) für die Bewohner des Hinterhauses, und wie werden sie von Anne beschrieben?",
     answers: [
-      { text: "Nö", correct: false },
-      { text: "Ja, natürlich", correct: true },
-      { text: "Keine Ahnung, frag deine Lehrerin", correct: false },
-      { text: "Ich enthalte mich von dieser Frage", correct: true }
+      { text: "Anne misstraut den Helfern und glaubt, dass sie sie verraten könnten.", correct: false },
+      { text: "Anne beschreibt die Helfer als selbstlose und mutige Menschen, die ihr Leben riskieren, um die Gruppe zu unterstützen", correct: true },
+      { text: "Die Helfer werden von Anne als egoistisch und nur auf ihren eigenen Vorteil bedacht beschrieben.", correct: false },
+      { text: " Anne hat kaum Kontakt zu den Helfern und weiß nicht viel über sie.", correct: false }
     ]
   }
 ];
